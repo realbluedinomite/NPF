@@ -1,0 +1,1442 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>National Prosperity Front &middot; Powering Progress, Securing Our Future</title>
+<meta name="description" content="Join the National Prosperity Front (NPF), a player nation and party in Parlamentum. Founding Day is Saturday 10 October 2026 at 17:00 UTC.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="National Prosperity Front">
+<meta property="og:title" content="National Prosperity Front: Powering Progress, Securing Our Future">
+<meta property="og:description" content="A united nation, industrial supremacy, and player support from day one. Founding Day: Saturday 10 October, 17:00 UTC.">
+<meta property="og:image" content="Main_Banner.webp">
+<meta property="og:image:type" content="image/webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="National Prosperity Front &middot; Parlamentum">
+<meta name="twitter:description" content="Join the National Prosperity Front on Founding Day (Saturday 10 October 2026, 17:00 UTC).">
+<meta name="twitter:image" content="Main_Banner.webp">
+<meta name="theme-color" content="#07132b">
+
+<link rel="icon" type="image/webp" href="Party_Logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap">
+
+<script>
+  if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.documentElement.classList.add("js");
+    setTimeout(function () {
+      if (!window.revealReady) document.documentElement.classList.remove("js");
+    }, 4000);
+  }
+</script>
+
+<style>
+  /* Art Direction: Grand, patriotic state broadsheet tailored with high-precision modern web craft.
+     Theme: Navy Blue, Crisp White, and Radiant Gold/Yellow. */
+  :root {
+    --navy-950: #040a17;
+    --navy-900: #07132b;
+    --navy-850: #0b1c3e;
+    --navy-800: #102754;
+    --navy-700: #163673;
+    --navy-600: #1e4591;
+    --blue-accent: #2563eb;
+    
+    --gold-100: #fef9c3;
+    --gold-200: #fef08a;
+    --gold-300: #fde047;
+    --gold-400: #facc15;
+    --gold-500: #eab308;
+    --gold-600: #ca8a04;
+    --gold-700: #a16207;
+    
+    --white: #ffffff;
+    --slate-50: #f8fafc;
+    --slate-100: #f1f5f9;
+    --slate-200: #e2e8f0;
+    --slate-300: #cbd5e1;
+    --slate-400: #94a3b8;
+    --slate-500: #64748b;
+    --slate-600: #475569;
+    --slate-700: #334155;
+    --slate-800: #1e293b;
+    --slate-900: #0f172a;
+
+    --font-display: "Cinzel", Georgia, serif;
+    --font-heading: "Outfit", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+    --container: 1200px;
+    --gutter: clamp(16px, 4vw, 40px);
+    --section-y: clamp(72px, 9vw, 120px);
+    --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+    --focus: var(--gold-400);
+
+    --border-gold-glow: 0 0 0 1px rgba(250, 204, 21, 0.35), 0 8px 32px -8px rgba(234, 179, 8, 0.25);
+    --grain-overlay: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-padding-top: 84px; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+  body {
+    margin: 0;
+    background: var(--slate-50);
+    color: var(--slate-800);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  img { max-width: 100%; height: auto; display: block; }
+  [hidden] { display: none !important; }
+  a { color: inherit; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+
+  .container {
+    max-width: var(--container);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+
+  .skip {
+    position: absolute; left: 12px; top: -64px; z-index: 1000;
+    padding: 12px 20px; background: var(--gold-400); color: var(--navy-950);
+    font-weight: 700; text-decoration: none; border-radius: 0 0 6px 6px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+  }
+  .skip:focus { top: 0; }
+
+  .icon {
+    width: 22px; height: 22px; flex: none; fill: none;
+    stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+  }
+
+  /* Utility classes */
+  .dark { background-color: var(--navy-900); color: var(--slate-100); --focus: var(--gold-300); }
+  .accent-gold { color: var(--gold-400); }
+  .accent-blue { color: var(--blue-accent); }
+
+  /* Top Tricolor Bar */
+  .top-ribbon {
+    height: 6px;
+    background: linear-gradient(90deg, 
+      var(--navy-700) 0%, 
+      var(--navy-600) 25%, 
+      var(--white) 25%, 
+      var(--white) 50%, 
+      var(--gold-500) 50%, 
+      var(--gold-400) 75%, 
+      var(--navy-800) 75%, 
+      var(--navy-950) 100%
+    );
+  }
+
+  /* Header */
+  .site-header {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(7, 19, 43, 0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(250, 204, 21, 0.2);
+    color: var(--slate-100);
+    transition: all 0.3s var(--ease);
+  }
+  .header-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 20px; min-height: 70px;
+  }
+  .brand {
+    display: inline-flex; align-items: center; gap: 14px;
+    text-decoration: none; font-family: var(--font-heading); font-weight: 800;
+    font-size: 1.05rem; letter-spacing: 0.05em; color: var(--white);
+    text-transform: uppercase;
+  }
+  .brand img {
+    width: 36px; height: 36px; object-fit: contain;
+    filter: drop-shadow(0 2px 8px rgba(250, 204, 21, 0.4));
+  }
+  .brand-text { display: flex; flex-direction: column; }
+  .brand-title { font-size: 1rem; font-weight: 800; letter-spacing: 0.08em; line-height: 1.1; color: var(--white); }
+  .brand-sub { font-size: 0.65rem; font-weight: 700; color: var(--gold-400); letter-spacing: 0.18em; }
+
+  .nav { display: flex; align-items: center; gap: 24px; }
+  .nav a {
+    display: inline-flex; align-items: center; min-height: 44px;
+    color: var(--slate-300); font-family: var(--font-heading); font-weight: 600;
+    font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase;
+    text-decoration: none; position: relative;
+    transition: color 200ms var(--ease);
+  }
+  .nav a::after {
+    content: ""; position: absolute; bottom: 8px; left: 0; right: 0; height: 2px;
+    background: var(--gold-400); transform: scaleX(0); transition: transform 200ms var(--ease);
+  }
+  .nav a:hover { color: var(--white); }
+  .nav a:hover::after { transform: scaleX(1); }
+
+  .header-actions { display: flex; align-items: center; gap: 12px; }
+
+  /* Audio Anthem Mini-Player Widget */
+  .anthem-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(250, 204, 21, 0.35);
+    color: var(--gold-300);
+    padding: 8px 14px; border-radius: 999px;
+    font-family: var(--font-heading); font-size: 0.76rem; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer;
+    transition: all 200ms var(--ease);
+  }
+  .anthem-btn:hover {
+    background: rgba(250, 204, 21, 0.15);
+    border-color: var(--gold-400);
+    color: var(--white);
+    box-shadow: 0 0 14px rgba(250, 204, 21, 0.25);
+  }
+  .anthem-waves {
+    display: inline-flex; align-items: center; gap: 2px; height: 14px;
+  }
+  .anthem-wave {
+    width: 2.5px; height: 4px; background: currentColor; border-radius: 1px;
+    transition: height 0.2s ease;
+  }
+  .anthem-btn.playing .anthem-wave:nth-child(1) { animation: wave 0.8s infinite ease-in-out; }
+  .anthem-btn.playing .anthem-wave:nth-child(2) { animation: wave 0.8s infinite ease-in-out 0.2s; }
+  .anthem-btn.playing .anthem-wave:nth-child(3) { animation: wave 0.8s infinite ease-in-out 0.4s; }
+  @keyframes wave {
+    0%, 100% { height: 4px; }
+    50% { height: 14px; }
+  }
+
+  @media (max-width: 960px) { .nav { display: none; } }
+  @media (max-width: 520px) {
+    .brand-sub { display: none; }
+    .anthem-btn span.label { display: none; }
+    .anthem-btn { padding: 8px 10px; }
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    min-height: 48px; padding: 0 24px; border: 0; border-radius: 6px;
+    font-family: var(--font-heading); font-weight: 700; font-size: 0.88rem;
+    letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none;
+    cursor: pointer; touch-action: manipulation;
+    transition: all 200ms var(--ease);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  .btn:active { transform: translateY(1px); }
+  
+  .btn-gold {
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-500));
+    color: var(--navy-950);
+    box-shadow: 0 8px 24px -6px rgba(234, 179, 8, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  }
+  .btn-gold:hover {
+    background: linear-gradient(135deg, var(--gold-300), var(--gold-400));
+    box-shadow: 0 12px 30px -4px rgba(234, 179, 8, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    transform: translateY(-1px);
+  }
+
+  .btn-blue {
+    background: linear-gradient(135deg, var(--navy-700), var(--navy-850));
+    color: var(--white);
+    border: 1px solid rgba(250, 204, 21, 0.4);
+    box-shadow: 0 8px 20px -6px rgba(7, 19, 43, 0.6);
+  }
+  .btn-blue:hover {
+    background: linear-gradient(135deg, var(--navy-600), var(--navy-700));
+    border-color: var(--gold-400);
+    color: var(--gold-300);
+    transform: translateY(-1px);
+  }
+
+  .btn-outline-white {
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--white);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .btn-outline-white:hover {
+    background: rgba(255, 255, 255, 0.14);
+    border-color: var(--white);
+  }
+
+  .btn-lg { min-height: 56px; padding: 0 32px; font-size: 0.95rem; }
+  .btn-sm { min-height: 42px; padding: 0 16px; font-size: 0.76rem; border-radius: 4px; }
+
+  /* Hero Section */
+  .hero {
+    position: relative; isolation: isolate; overflow: hidden;
+    background: radial-gradient(circle at 75% 35%, rgba(30, 69, 145, 0.45) 0%, transparent 60%),
+                radial-gradient(circle at 20% 80%, rgba(234, 179, 8, 0.15) 0%, transparent 50%),
+                linear-gradient(180deg, var(--navy-950) 0%, var(--navy-900) 60%, var(--navy-850) 100%);
+    padding-block: clamp(50px, 8vw, 100px) clamp(60px, 9vw, 110px);
+    border-bottom: 1px solid rgba(250, 204, 21, 0.25);
+  }
+  .hero::before {
+    content: ""; position: absolute; inset: 0; z-index: -1;
+    background-image: var(--grain-overlay);
+    opacity: 0.6; pointer-events: none;
+  }
+  .hero-inner {
+    display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: clamp(36px, 6vw, 72px); align-items: center;
+  }
+  
+  .eyebrow {
+    display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px 12px;
+    padding: 6px 16px; border-radius: 999px;
+    background: rgba(250, 204, 21, 0.1);
+    border: 1px solid rgba(250, 204, 21, 0.35);
+    color: var(--gold-300); font-family: var(--font-heading); font-weight: 700;
+    font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase;
+    margin: 0 0 24px;
+  }
+  .eyebrow .icon { width: 16px; height: 16px; }
+  .eyebrow-sep { color: var(--gold-500); opacity: 0.6; }
+
+  .hero h1 {
+    margin: 0 0 20px; font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(2.4rem, 6.5vw, 4.4rem); line-height: 1.05; letter-spacing: 0.02em;
+    text-transform: uppercase; color: var(--white);
+  }
+  .hero h1 .subline {
+    display: block; font-family: var(--font-heading); font-weight: 800;
+    font-size: 0.42em; letter-spacing: 0.22em; color: var(--gold-400);
+    margin-bottom: 6px;
+  }
+  .hero h1 .highlight {
+    background: linear-gradient(135deg, #ffffff 0%, var(--gold-200) 60%, var(--gold-400) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .lede {
+    margin: 0 0 32px; max-width: 48ch; color: var(--slate-300);
+    font-size: clamp(1.05rem, 1.8vw, 1.25rem); line-height: 1.6; font-weight: 400;
+  }
+
+  /* Countdown Widget */
+  .countdown-box {
+    background: rgba(4, 10, 23, 0.65);
+    border: 1px solid rgba(250, 204, 21, 0.3);
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    max-width: 480px; margin-bottom: 28px;
+  }
+  .countdown-label {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 14px; font-family: var(--font-heading); font-size: 0.76rem;
+    font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-400);
+  }
+  .countdown {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px;
+  }
+  .unit {
+    padding: 12px 6px 10px; text-align: center; border-radius: 8px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .unit b {
+    display: block; font-family: var(--font-display); font-weight: 800;
+    font-size: clamp(1.6rem, 4.5vw, 2.3rem); line-height: 1; color: var(--white);
+    font-variant-numeric: tabular-nums;
+  }
+  .unit span {
+    display: block; margin-top: 6px; color: var(--gold-300);
+    font-family: var(--font-heading); font-weight: 700;
+    font-size: 0.65rem; letter-spacing: 0.14em; text-transform: uppercase;
+  }
+  .when {
+    margin: 14px 0 0; color: var(--slate-400); font-size: 0.85rem; line-height: 1.4;
+  }
+  .founded-banner {
+    padding: 16px 20px; background: rgba(234, 179, 8, 0.15); border: 1px solid var(--gold-400);
+    border-radius: 8px; color: var(--gold-300); font-family: var(--font-heading);
+    font-weight: 800; font-size: 1.1rem; text-align: center; margin-bottom: 24px;
+  }
+
+  .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; }
+
+  /* Hero Showcase Visual */
+  .hero-visual {
+    position: relative; justify-self: center; width: 100%; max-width: 480px;
+  }
+  .poster-card {
+    position: relative; border-radius: 14px; overflow: hidden;
+    background: var(--navy-850);
+    border: 2px solid rgba(250, 204, 21, 0.4);
+    box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 35px rgba(37, 99, 235, 0.2);
+    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+  }
+  .poster-card:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 30px 70px -15px rgba(0, 0, 0, 0.9), 0 0 45px rgba(250, 204, 21, 0.25);
+  }
+  .poster-card img { width: 100%; height: auto; display: block; }
+  
+  .hero-badge {
+    position: absolute; bottom: -16px; right: -16px;
+    background: var(--navy-900);
+    border: 2px solid var(--gold-400);
+    border-radius: 12px;
+    padding: 10px 16px;
+    display: flex; align-items: center; gap: 12px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6);
+  }
+  .hero-badge img { width: 34px; height: 34px; object-fit: contain; }
+  .hero-badge-title { font-family: var(--font-heading); font-weight: 800; font-size: 0.82rem; color: var(--white); line-height: 1.1; }
+  .hero-badge-sub { font-size: 0.68rem; color: var(--gold-400); font-weight: 700; letter-spacing: 0.06em; }
+
+  @media (max-width: 960px) {
+    .hero-inner { grid-template-columns: minmax(0, 1fr); text-align: center; }
+    .eyebrow { justify-content: center; }
+    .lede { margin-inline: auto; }
+    .countdown-box { margin-inline: auto; }
+    .hero-actions { justify-content: center; }
+    .hero-visual { margin-top: 30px; }
+  }
+
+  /* Core Doctrine Banner (Motto) */
+  .doctrine {
+    background: linear-gradient(180deg, var(--white) 0%, var(--slate-100) 100%);
+    border-bottom: 1px solid var(--slate-200);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+  .doctrine-grid {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .doctrine-item {
+    padding: clamp(32px, 4.5vw, 56px) clamp(20px, 3vw, 40px);
+    text-align: center; position: relative;
+  }
+  .doctrine-item + .doctrine-item {
+    border-left: 1px solid var(--slate-200);
+  }
+  .doctrine-num {
+    display: inline-block; margin-bottom: 8px; color: var(--gold-600);
+    font-family: var(--font-display); font-weight: 800; font-size: 0.95rem; letter-spacing: 0.25em;
+  }
+  .doctrine-item h3 {
+    margin: 0 0 10px; font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(1.45rem, 2.5vw, 1.9rem); letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--navy-900);
+  }
+  .doctrine-item p {
+    margin: 0 auto; max-width: 32ch; color: var(--slate-600); font-size: 0.98rem; line-height: 1.55;
+  }
+  @media (max-width: 768px) {
+    .doctrine-grid { grid-template-columns: minmax(0, 1fr); }
+    .doctrine-item + .doctrine-item { border-left: 0; border-top: 1px solid var(--slate-200); }
+  }
+
+  /* Section Styles */
+  .section { padding-block: var(--section-y); position: relative; }
+  .section-head {
+    max-width: 760px; margin: 0 auto clamp(40px, 6vw, 64px); text-align: center;
+  }
+  .kicker {
+    display: inline-flex; align-items: center; gap: 12px; margin: 0 0 14px;
+    color: var(--navy-700); font-family: var(--font-heading); font-weight: 800;
+    font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase;
+  }
+  .kicker::before, .kicker::after {
+    content: ""; width: 28px; height: 2px; background: var(--gold-500);
+  }
+  .dark .kicker { color: var(--gold-400); }
+  .dark .kicker::before, .dark .kicker::after { background: var(--gold-400); }
+
+  .section-head h2 {
+    margin: 0; font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.1; letter-spacing: 0.01em;
+    text-transform: uppercase; color: var(--navy-950);
+  }
+  .dark .section-head h2 { color: var(--white); }
+
+  .section-head .intro {
+    margin: 16px auto 0; max-width: 58ch; color: var(--slate-600);
+    font-size: clamp(1.05rem, 1.8vw, 1.18rem); line-height: 1.6;
+  }
+  .dark .section-head .intro { color: var(--slate-300); }
+
+  /* Why Cards */
+  .cards-grid {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;
+  }
+  .feature-card {
+    position: relative; background: var(--white);
+    border: 1px solid var(--slate-200); border-radius: 12px;
+    padding: 34px 28px 30px;
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.06), 0 0 0 1px rgba(234, 179, 8, 0.1);
+    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s var(--ease);
+  }
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 35px -10px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(234, 179, 8, 0.4);
+    border-color: var(--gold-400);
+  }
+  .card-top {
+    display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;
+  }
+  .card-icon {
+    display: grid; place-items: center; width: 54px; height: 54px; border-radius: 12px;
+    background: linear-gradient(135deg, var(--navy-850), var(--navy-950));
+    color: var(--gold-400); border: 1px solid rgba(250, 204, 21, 0.3);
+    box-shadow: 0 4px 12px rgba(7, 19, 43, 0.18);
+  }
+  .card-num {
+    color: var(--gold-600); font-family: var(--font-display); font-weight: 900;
+    font-size: 1.4rem; opacity: 0.8;
+  }
+  .feature-card h3 {
+    margin: 0 0 12px; font-family: var(--font-heading); font-weight: 800;
+    font-size: 1.28rem; line-height: 1.25; color: var(--navy-950);
+  }
+  .feature-card p {
+    margin: 0; color: var(--slate-600); font-size: 0.98rem; line-height: 1.6;
+  }
+  @media (max-width: 900px) {
+    .cards-grid { grid-template-columns: minmax(0, 1fr); max-width: 580px; margin-inline: auto; }
+  }
+
+  /* National Bonuses Band (Dark Theme) */
+  .bonuses-section {
+    background: radial-gradient(circle at 50% 10%, rgba(37, 99, 235, 0.25) 0%, transparent 60%),
+                linear-gradient(180deg, var(--navy-950) 0%, var(--navy-900) 100%);
+    border-block: 1px solid rgba(250, 204, 21, 0.25);
+  }
+  .stat-grid {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+    border: 1px solid rgba(250, 204, 21, 0.2);
+    border-radius: 16px; overflow: hidden;
+    background: rgba(4, 10, 23, 0.5);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+  }
+  .stat-item {
+    padding: 44px 28px 40px; text-align: center; position: relative;
+  }
+  .stat-item + .stat-item {
+    border-left: 1px solid rgba(250, 204, 21, 0.2);
+  }
+  .stat-icon {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 56px; height: 56px; border-radius: 50%;
+    background: rgba(250, 204, 21, 0.1);
+    color: var(--gold-400); border: 1px solid rgba(250, 204, 21, 0.3);
+    margin-bottom: 18px;
+  }
+  .stat-pre {
+    display: block; color: var(--slate-400); font-family: var(--font-heading);
+    font-weight: 700; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase;
+  }
+  .stat-item strong {
+    display: block; margin: 6px 0 8px; color: var(--white);
+    font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(2.6rem, 5.5vw, 4.2rem); line-height: 1.05;
+    background: linear-gradient(135deg, #ffffff 0%, var(--gold-300) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .stat-label {
+    display: block; color: var(--slate-200); font-family: var(--font-heading);
+    font-weight: 700; font-size: 1.12rem;
+  }
+  .bonuses-note {
+    margin: 24px 0 0; text-align: center; color: var(--slate-400); font-size: 0.95rem;
+  }
+  @media (max-width: 768px) {
+    .stat-grid { grid-template-columns: minmax(0, 1fr); }
+    .stat-item + .stat-item { border-left: 0; border-top: 1px solid rgba(250, 204, 21, 0.2); }
+    .stat-item { padding: 28px 20px; }
+  }
+
+  /* Steps to Join */
+  .steps-list {
+    position: relative; list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px;
+  }
+  .steps-list::before {
+    content: ""; position: absolute; top: 36px; left: 16%; right: 16%;
+    border-top: 2px dashed rgba(202, 138, 4, 0.4); z-index: 0;
+  }
+  .step-item {
+    position: relative; text-align: center; z-index: 1;
+  }
+  .step-badge {
+    position: relative; display: grid; place-items: center;
+    width: 72px; height: 72px; margin: 0 auto 24px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--navy-800), var(--navy-950));
+    color: var(--gold-400); border: 2px solid var(--gold-400);
+    font-family: var(--font-display); font-weight: 900; font-size: 1.35rem;
+    box-shadow: 0 0 0 8px var(--slate-50), 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .step-item h3 {
+    margin: 0 0 10px; font-family: var(--font-heading); font-weight: 800;
+    font-size: 1.3rem; color: var(--navy-950);
+  }
+  .step-item p {
+    margin: 0 auto; max-width: 32ch; color: var(--slate-600); font-size: 0.98rem;
+  }
+  .steps-cta {
+    display: flex; justify-content: center; margin-top: clamp(48px, 6vw, 64px);
+  }
+  @media (max-width: 880px) {
+    .steps-list { grid-template-columns: minmax(0, 1fr); gap: 36px; max-width: 520px; margin-inline: auto; }
+    .steps-list::before { top: 36px; bottom: 36px; left: 35px; right: auto; border-top: 0; border-left: 2px dashed rgba(202, 138, 4, 0.4); }
+    .step-item { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 20px; align-items: start; text-align: left; }
+    .step-badge { margin: 0; }
+    .step-item h3 { margin-top: 8px; }
+    .step-item p { margin: 0; max-width: none; }
+  }
+
+  /* Founding Cabinet Section */
+  .cabinet-section {
+    background: var(--slate-100);
+    border-top: 1px solid var(--slate-200);
+  }
+  .cabinet-grid {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px;
+  }
+  .minister-card {
+    display: flex; flex-direction: column; align-items: center; gap: 16px;
+    padding: 30px 16px 26px; text-align: center;
+    background: var(--white); border: 1px solid var(--slate-200);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+    transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+  }
+  .minister-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.1);
+  }
+  .minister-avatar {
+    display: grid; place-items: center; width: 66px; height: 66px; flex: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--navy-850), var(--navy-950));
+    color: var(--gold-400); font-family: var(--font-display); font-weight: 900; font-size: 1.55rem;
+    border: 2px solid var(--gold-400);
+    box-shadow: 0 4px 12px rgba(7, 19, 43, 0.2);
+  }
+  .minister-info { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .minister-role {
+    color: var(--navy-700); font-family: var(--font-heading); font-weight: 800;
+    font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;
+  }
+  .minister-name {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(1.15rem, 2.5vw, 1.35rem); line-height: 1.15; color: var(--navy-950);
+  }
+  .minister-desc {
+    font-size: 0.84rem; color: var(--slate-500); line-height: 1.4; margin-top: 4px;
+  }
+
+  /* Chairman Card Highlight */
+  .minister-card.leader {
+    background: linear-gradient(180deg, var(--navy-900) 0%, var(--navy-850) 100%);
+    border-color: var(--gold-500);
+    color: var(--white);
+    box-shadow: 0 10px 25px rgba(7, 19, 43, 0.25), 0 0 0 1px var(--gold-400);
+  }
+  .minister-card.leader .minister-role { color: var(--gold-400); }
+  .minister-card.leader .minister-name { color: var(--white); }
+  .minister-card.leader .minister-desc { color: var(--slate-300); }
+  .minister-card.leader .minister-avatar {
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+    color: var(--navy-950);
+    border-color: var(--white);
+  }
+
+  @media (max-width: 1040px) {
+    .cabinet-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .minister-card.leader { grid-column: 1 / -1; flex-direction: row; justify-content: center; text-align: left; gap: 24px; padding: 24px 32px; }
+    .minister-card.leader .minister-info { align-items: flex-start; }
+  }
+  @media (max-width: 640px) {
+    .cabinet-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .minister-card.leader { flex-direction: column; text-align: center; }
+    .minister-card.leader .minister-info { align-items: center; }
+  }
+  @media (max-width: 440px) {
+    .cabinet-grid { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  /* Anthem Showcase Section */
+  .anthem-section {
+    background: radial-gradient(circle at 80% 50%, rgba(234, 179, 8, 0.12) 0%, transparent 60%),
+                radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.25) 0%, transparent 50%),
+                linear-gradient(180deg, var(--navy-900) 0%, var(--navy-950) 100%);
+    border-top: 1px solid rgba(250, 204, 21, 0.25);
+    color: var(--white);
+  }
+  .anthem-card {
+    max-width: 840px; margin: 0 auto;
+    background: rgba(11, 28, 62, 0.7);
+    border: 1px solid rgba(250, 204, 21, 0.35);
+    border-radius: 16px; padding: clamp(24px, 5vw, 44px);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+    display: grid; grid-template-columns: auto 1fr; gap: clamp(20px, 4vw, 36px);
+    align-items: center;
+  }
+  .anthem-disc {
+    width: 90px; height: 90px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+    color: var(--navy-950); display: grid; place-items: center;
+    border: 3px solid var(--white);
+    box-shadow: 0 0 25px rgba(250, 204, 21, 0.4);
+    cursor: pointer; transition: transform 0.2s ease;
+  }
+  .anthem-disc:hover { transform: scale(1.06); }
+  .anthem-disc .icon { width: 36px; height: 36px; stroke-width: 2.5; }
+  
+  .anthem-meta h3 {
+    margin: 0 0 4px; font-family: var(--font-display); font-weight: 800;
+    font-size: 1.45rem; color: var(--white);
+  }
+  .anthem-meta p {
+    margin: 0 0 16px; color: var(--gold-300); font-family: var(--font-heading);
+    font-size: 0.88rem; font-weight: 600;
+  }
+  .anthem-progress-bar {
+    width: 100%; height: 6px; background: rgba(255, 255, 255, 0.15);
+    border-radius: 3px; cursor: pointer; position: relative; overflow: hidden;
+  }
+  .anthem-progress-fill {
+    position: absolute; top: 0; left: 0; bottom: 0; width: 0%;
+    background: linear-gradient(90deg, var(--gold-400), var(--gold-200));
+    border-radius: 3px; transition: width 0.1s linear;
+  }
+  .anthem-time-row {
+    display: flex; justify-content: space-between; margin-top: 8px;
+    font-size: 0.78rem; color: var(--slate-400); font-family: var(--font-mono);
+  }
+  @media (max-width: 600px) {
+    .anthem-card { grid-template-columns: 1fr; text-align: center; justify-items: center; }
+  }
+
+  /* Final Call Banner */
+  .final-section {
+    position: relative; isolation: isolate; overflow: hidden;
+    background: radial-gradient(circle at 50% 120%, rgba(234, 179, 8, 0.2) 0%, transparent 60%),
+                linear-gradient(180deg, var(--navy-950) 0%, var(--navy-900) 100%);
+    color: var(--white); text-align: center;
+    border-top: 1px solid rgba(250, 204, 21, 0.2);
+  }
+  .final-inner {
+    padding-block: clamp(80px, 11vw, 130px);
+  }
+  .final-emblem {
+    width: 96px; height: 96px; margin: 0 auto 24px;
+    filter: drop-shadow(0 6px 20px rgba(250, 204, 21, 0.5));
+  }
+  .final-pre {
+    margin: 0; color: var(--gold-400); font-family: var(--font-heading);
+    font-weight: 800; font-size: clamp(0.95rem, 2vw, 1.25rem);
+    letter-spacing: 0.25em; text-transform: uppercase;
+  }
+  .final-title {
+    margin: 10px 0 16px; font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(2.3rem, 7.5vw, 4.8rem); line-height: 1.05;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #ffffff 0%, var(--gold-200) 60%, var(--gold-400) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .final-motto {
+    margin: 0 0 36px; color: var(--slate-300); font-family: var(--font-heading);
+    font-weight: 700; font-size: 1rem; letter-spacing: 0.2em; text-transform: uppercase;
+  }
+
+  .invite-box {
+    display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
+    gap: 12px; margin-top: 36px;
+  }
+  .invite-label { width: 100%; color: var(--slate-300); font-size: 0.95rem; margin-bottom: 2px; }
+  .invite-code {
+    padding: 12px 18px; background: rgba(0, 0, 0, 0.4);
+    border: 1px dashed rgba(250, 204, 21, 0.6);
+    border-radius: 6px; color: var(--gold-300); font-family: var(--font-mono);
+    font-size: 0.98rem; font-weight: 600; user-select: all;
+  }
+  .copy-btn {
+    display: inline-flex; align-items: center; gap: 8px; min-height: 46px; padding: 0 20px;
+    background: rgba(255, 255, 255, 0.08); color: var(--white);
+    border: 1px solid rgba(250, 204, 21, 0.5); border-radius: 6px;
+    font-family: var(--font-heading); font-weight: 700; font-size: 0.8rem;
+    letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer;
+    transition: all 200ms var(--ease);
+  }
+  .copy-btn:hover {
+    background: rgba(250, 204, 21, 0.2);
+    border-color: var(--gold-400);
+    color: var(--gold-300);
+  }
+
+  /* Footer */
+  .site-footer {
+    background: var(--navy-950);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--slate-400); font-size: 0.95rem;
+    padding-block: 36px;
+  }
+  .footer-inner {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 20px 32px;
+  }
+  .footer-brand {
+    display: flex; align-items: center; gap: 16px;
+  }
+  .footer-brand img { width: 38px; height: 38px; object-fit: contain; }
+  .footer-brand strong {
+    display: block; color: var(--white); font-family: var(--font-heading);
+    font-weight: 800; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase;
+  }
+  .footer-brand a { color: var(--gold-400); text-decoration: none; }
+  .footer-brand a:hover { text-decoration: underline; }
+  .footer-links { display: flex; gap: 20px; font-size: 0.88rem; }
+  .footer-links a { color: var(--slate-300); text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--gold-400); }
+
+  /* Scroll Reveal */
+  .js [data-reveal] {
+    opacity: 0; transform: translateY(22px);
+    transition: opacity 700ms var(--ease), transform 700ms var(--ease);
+    transition-delay: calc(var(--d, 0) * 100ms);
+  }
+  .js [data-reveal].in {
+    opacity: 1; transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .js [data-reveal] { opacity: 1; transform: none; transition: none; }
+    .btn, .anthem-btn, .copy-btn { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- Top Patriotic Ribbon -->
+<div class="top-ribbon" aria-hidden="true"></div>
+
+<!-- SVG Sprite Library -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-discord" viewBox="0 0 24 24"><path fill="currentColor" d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h5"/><path d="M17.5 17.5 16 16.3V14"/><circle cx="16" cy="16" r="6"/></symbol>
+  <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+  <symbol id="i-factory" viewBox="0 0 24 24"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4H2z"/><path d="M18 18h.01"/><path d="M14 18h.01"/><path d="M10 18h.01"/><path d="M6 18h.01"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-zap" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+  <symbol id="i-trending-up" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></symbol>
+  <symbol id="i-swords" viewBox="0 0 24 24"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16" fill="currentColor"/><rect x="14" y="4" width="4" height="16" fill="currentColor"/></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#top" aria-label="National Prosperity Front Homepage">
+      <img src="Party_Logo.webp" alt="NPF Crest" width="36" height="36">
+      <div class="brand-text">
+        <span class="brand-title">National Prosperity Front</span>
+        <span class="brand-sub">Parlamentum Player Nation</span>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="Main Navigation">
+      <a href="#why">Why NPF</a>
+      <a href="#bonuses">Bonuses</a>
+      <a href="#join">How to Join</a>
+      <a href="#cabinet">Cabinet</a>
+      <a href="#anthem">Anthem</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="anthem-btn" id="header-anthem-btn" type="button" aria-label="Toggle Party Anthem">
+        <span class="anthem-waves" aria-hidden="true">
+          <span class="anthem-wave"></span>
+          <span class="anthem-wave"></span>
+          <span class="anthem-wave"></span>
+        </span>
+        <span class="label">Anthem</span>
+      </button>
+
+      <a class="btn btn-gold btn-sm" href="https://discord.gg/NPF" target="_blank" rel="noopener" aria-label="Join NPF on Discord">
+        <svg class="icon" style="width: 18px; height: 18px;" aria-hidden="true" focusable="false"><use href="#i-discord"/></svg>
+        <span>Join Discord</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero Section -->
+  <section class="hero dark" id="top" aria-labelledby="hero-title">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow" data-reveal style="--d:0">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>
+          <span>Founding Day</span>
+          <span class="eyebrow-sep">&bull;</span>
+          <span>Saturday 10 October</span>
+          <span class="eyebrow-sep">&bull;</span>
+          <span>17:00 UTC</span>
+        </p>
+
+        <h1 id="hero-title" data-reveal style="--d:1">
+          <span class="subline">Powering Progress &bull; Securing Our Future</span>
+          <span>National <span class="highlight">Prosperity</span> Front</span>
+        </h1>
+
+        <p class="lede" data-reveal style="--d:2">
+          The Premier Nation and Party in <strong>Parlamentum</strong>. Ready from the first hour with organized industry, sovereign military strength, and full mentorship for every citizen.
+        </p>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-box" id="countdown-wrap" data-reveal style="--d:3">
+          <div class="countdown-label">
+            <span>Countdown to Open Beta Server Launch</span>
+            <span class="accent-gold">Beta 1.0</span>
+          </div>
+          <div class="countdown" role="timer" aria-live="off" aria-label="Time until Founding Day">
+            <div class="unit"><b id="cd-d">00</b><span>Days</span></div>
+            <div class="unit"><b id="cd-h">00</b><span>Hours</span></div>
+            <div class="unit"><b id="cd-m">00</b><span>Minutes</span></div>
+            <div class="unit"><b id="cd-s">00</b><span>Seconds</span></div>
+          </div>
+          <p class="when" id="local-time">Open beta starts Saturday 10 October 2026 at 17:00 UTC.</p>
+        </div>
+
+        <div class="founded-banner" id="founded" hidden>
+          &#9733; The National Prosperity Front is Founded! Join our ranks in Parlamentum.
+        </div>
+
+        <div class="hero-actions" data-reveal style="--d:4">
+          <a class="btn btn-gold btn-lg" href="https://discord.gg/NPF" target="_blank" rel="noopener">
+            <svg class="icon" style="width: 20px; height: 20px;" aria-hidden="true" focusable="false"><use href="#i-discord"/></svg>
+            Join on Discord
+          </a>
+          <a class="btn btn-blue btn-lg" href="#why">
+            <span>Explore Doctrine</span>
+            <svg class="icon" style="width: 18px; height: 18px;" aria-hidden="true" focusable="false"><use href="#i-arrow-down"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual Showcase -->
+      <div class="hero-visual" data-reveal style="--d:2">
+        <div class="poster-card">
+          <img src="Main_Banner.webp" alt="National Prosperity Front Official Banner" width="480" height="180">
+        </div>
+        <div class="hero-badge">
+          <img src="Party_Logo.webp" alt="NPF Golden Eagle Emblem" width="34" height="34">
+          <div>
+            <div class="hero-badge-title">3rd Largest in UAF</div>
+            <div class="hero-badge-sub">United American Front</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Doctrine / Motto Band -->
+  <section class="doctrine" aria-labelledby="doctrine-title">
+    <h2 class="sr-only" id="doctrine-title">Our Core Doctrines</h2>
+    <div class="container doctrine-grid">
+      <div class="doctrine-item">
+        <span class="doctrine-num">I</span>
+        <h3>Prosperity</h3>
+        <p>Rapid economic acceleration, coordinated manufacturing chains, and shared wealth distributions for every loyal citizen.</p>
+      </div>
+      <div class="doctrine-item">
+        <span class="doctrine-num">II</span>
+        <h3>Strength</h3>
+        <p>Uncompromising national defense, combined arms battle readiness, and ironclad standing within the UAF alliance.</p>
+      </div>
+      <div class="doctrine-item">
+        <span class="doctrine-num">III</span>
+        <h3>Progress</h3>
+        <p>State-of-the-art technological advancement, transparent parliamentary democracy, and merit-driven civic leadership.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose NPF -->
+  <section class="section" id="why" aria-labelledby="why-title">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <p class="kicker">Why Join NPF</p>
+        <h2 id="why-title">Built for Day One Supremacy</h2>
+        <p class="intro">
+          When Parlamentum's servers open, survival and prosperity belong to those with a clear blueprint. The National Prosperity Front provides instant organization, mentorship, and opportunities.
+        </p>
+      </header>
+
+      <div class="cards-grid">
+        <article class="feature-card" data-reveal style="--d:0">
+          <div class="card-top">
+            <span class="card-icon">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>
+            </span>
+            <span class="card-num">I</span>
+          </div>
+          <h3>Full Government from Hour One</h3>
+          <p>
+            Our complete Founding Cabinet is in place, featuring specialized ministries for Foreign Affairs, Treasury, Defense, and Domestic Infrastructure to ensure immediate state stability.
+          </p>
+        </article>
+
+        <article class="feature-card" data-reveal style="--d:1">
+          <div class="card-top">
+            <span class="card-icon">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-users"/></svg>
+            </span>
+            <span class="card-num">II</span>
+          </div>
+          <h3>Dedicated Player Mentorship</h3>
+          <p>
+            Never play alone. Every recruit is paired with experienced MMO strategists who guide your travel, optimal skill progression, career choice, and early combat tactics.
+          </p>
+        </article>
+
+        <article class="feature-card" data-reveal style="--d:2">
+          <div class="card-top">
+            <span class="card-icon">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-factory"/></svg>
+            </span>
+            <span class="card-num">III</span>
+          </div>
+          <h3>Coalition Clout in UAF</h3>
+          <p>
+            Ranked as the 3rd largest force in the United American Front, NPF citizens enjoy guaranteed trade routes, mutual defense pacts, and prime industrial zoning.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- National Bonuses Section -->
+  <section class="section bonuses-section dark" id="bonuses" aria-labelledby="bonuses-title">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <p class="kicker">Territorial Advantages</p>
+        <h2 id="bonuses-title">Infrastructure That Empowers You</h2>
+        <p class="intro">
+          From the first hour, NPF constructs high-tier power grids, research centers, and manufacturing complexes. Every citizen inside our borders reaps maximum stat bonuses.
+        </p>
+      </header>
+
+      <ul class="stat-grid" data-reveal>
+        <li class="stat-item">
+          <span class="stat-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-zap"/></svg></span>
+          <span class="stat-pre">Up to</span>
+          <strong>+50%</strong>
+          <span class="stat-label">Energy Regeneration</span>
+        </li>
+        <li class="stat-item">
+          <span class="stat-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-swords"/></svg></span>
+          <span class="stat-pre">Up to</span>
+          <strong>+25%</strong>
+          <span class="stat-label">Combat &amp; Stat Training</span>
+        </li>
+        <li class="stat-item">
+          <span class="stat-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-trending-up"/></svg></span>
+          <span class="stat-pre">Up to</span>
+          <strong>+30%</strong>
+          <span class="stat-label">Industrial Factory Output</span>
+        </li>
+      </ul>
+      <p class="bonuses-note">* Maximum territorial development index bonuses applied in NPF sovereign regions.</p>
+    </div>
+  </section>
+
+  <!-- How to Join / Steps -->
+  <section class="section" id="join" aria-labelledby="join-title">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <p class="kicker">Recruitment Roadmap</p>
+        <h2 id="join-title">Three Steps to Enlist</h2>
+        <p class="intro">
+          Joining the National Prosperity Front is seamless and open to all players seeking an organized and ambitious nation.
+        </p>
+      </header>
+
+      <ol class="steps-list">
+        <li class="step-item" data-reveal style="--d:0">
+          <span class="step-badge">1</span>
+          <div>
+            <h3>Join our Discord</h3>
+            <p>Enter the official NPF Discord headquarters, select your preferred career path, and receive your citizen verification.</p>
+          </div>
+        </li>
+        <li class="step-item" data-reveal style="--d:1">
+          <span class="step-badge">2</span>
+          <div>
+            <h3>Assemble on Launch Day</h3>
+            <p>Be online Saturday 10 October 2026 at 17:00 UTC when the Parlamentum servers go live for Open Beta.</p>
+          </div>
+        </li>
+        <li class="step-item" data-reveal style="--d:2">
+          <span class="step-badge">3</span>
+          <div>
+            <h3>Deploy &amp; Build Together</h3>
+            <p>Relocate to our designated capital city coordinates, claim your starter stipend, and build our sovereign state.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="steps-cta" data-reveal style="--d:3">
+        <a class="btn btn-gold btn-lg" href="https://discord.gg/NPF" target="_blank" rel="noopener">
+          <svg class="icon" style="width: 20px; height: 20px;" aria-hidden="true" focusable="false"><use href="#i-discord"/></svg>
+          Claim Your Citizen Role
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founding Cabinet -->
+  <section class="section cabinet-section" id="cabinet" aria-labelledby="cabinet-title">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <p class="kicker">Leadership &amp; Governance</p>
+        <h2 id="cabinet-title">The Founding Cabinet</h2>
+        <p class="intro">
+          Steadfast leadership dedicated to transparency, national prosperity, and citizen representation.
+        </p>
+      </header>
+
+      <ul class="cabinet-grid">
+        <li class="minister-card leader" data-reveal style="--d:0">
+          <div class="minister-avatar">&#9733;</div>
+          <div class="minister-info">
+            <span class="minister-role">Party Chairman</span>
+            <strong class="minister-name">Executive Command</strong>
+            <span class="minister-desc">Supreme Strategic Direction &amp; Coalition Representation</span>
+          </div>
+        </li>
+
+        <li class="minister-card" data-reveal style="--d:1">
+          <div class="minister-avatar">F</div>
+          <div class="minister-info">
+            <span class="minister-role">Foreign Affairs</span>
+            <strong class="minister-name">Diplomacy Bureau</strong>
+            <span class="minister-desc">UAF Alliance Pacts, Treaties &amp; External Embassies</span>
+          </div>
+        </li>
+
+        <li class="minister-card" data-reveal style="--d:2">
+          <div class="minister-avatar">T</div>
+          <div class="minister-info">
+            <span class="minister-role">Treasury &amp; Trade</span>
+            <strong class="minister-name">Economic Ministry</strong>
+            <span class="minister-desc">Market Supply Chains, Starter Grants &amp; Tariffs</span>
+          </div>
+        </li>
+
+        <li class="minister-card" data-reveal style="--d:3">
+          <div class="minister-avatar">D</div>
+          <div class="minister-info">
+            <span class="minister-role">Defense &amp; War</span>
+            <strong class="minister-name">General Staff</strong>
+            <span class="minister-desc">Frontline Logistics, Military Doctrine &amp; Territorial Security</span>
+          </div>
+        </li>
+
+        <li class="minister-card" data-reveal style="--d:4">
+          <div class="minister-avatar">I</div>
+          <div class="minister-info">
+            <span class="minister-role">Interior &amp; Media</span>
+            <strong class="minister-name">Civil Administration</strong>
+            <span class="minister-desc">Citizen Onboarding, Infrastructure &amp; Free Press</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Official Anthem Media Section -->
+  <section class="section anthem-section" id="anthem" aria-labelledby="anthem-title">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <p class="kicker">National Heritage</p>
+        <h2 id="anthem-title">The Party Anthem</h2>
+        <p class="intro">
+          Listen to the official anthem of the National Prosperity Front, embodying our courage and vision for the future.
+        </p>
+      </header>
+
+      <div class="anthem-card" data-reveal>
+        <button class="anthem-disc" id="main-play-btn" type="button" aria-label="Play or pause party anthem">
+          <svg class="icon play-icon" aria-hidden="true" focusable="false"><use href="#i-play"/></svg>
+          <svg class="icon pause-icon" aria-hidden="true" focusable="false" style="display:none;"><use href="#i-pause"/></svg>
+        </button>
+
+        <div class="anthem-meta" style="width: 100%;">
+          <h3>Anthem of the National Prosperity Front</h3>
+          <p>Official State &amp; Party March &bull; 45 Seconds</p>
+          
+          <div class="anthem-progress-bar" id="anthem-progress-wrap" role="slider" aria-label="Audio progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+            <div class="anthem-progress-fill" id="anthem-progress"></div>
+          </div>
+
+          <div class="anthem-time-row">
+            <span id="audio-current-time">0:00</span>
+            <span id="audio-total-time">0:45</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden Audio Element -->
+      <audio id="party-audio" preload="metadata" src="Party_Anthem.m4a"></audio>
+    </div>
+  </section>
+
+  <!-- Final Call to Action -->
+  <section class="section final-section" aria-labelledby="final-title">
+    <div class="container final-inner" data-reveal>
+      <img class="final-emblem" src="Party_Logo.webp" alt="NPF Golden Eagle Emblem" width="96" height="96">
+      <p class="final-pre">Join the Ranks of the</p>
+      <h2 class="final-title" id="final-title">National Prosperity Front</h2>
+      <p class="final-motto">Powering Progress &bull; Securing Our Future</p>
+      
+      <a class="btn btn-gold btn-lg" href="https://discord.gg/NPF" target="_blank" rel="noopener">
+        <svg class="icon" style="width: 22px; height: 22px;" aria-hidden="true" focusable="false"><use href="#i-discord"/></svg>
+        <span>Join on Discord</span>
+      </a>
+
+      <div class="invite-box">
+        <span class="invite-label">Or copy our direct Discord invite code:</span>
+        <code class="invite-code" id="invite-link">discord.gg/NPF</code>
+        <button class="copy-btn" id="copy-btn" type="button" aria-label="Copy Discord invite link">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>
+          <span id="copy-label">Copy Link</span>
+        </button>
+      </div>
+      <p class="sr-only" id="copy-status" aria-live="polite"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="Party_Logo.webp" alt="NPF Emblem" width="38" height="38">
+      <div>
+        <strong>National Prosperity Front (NPF)</strong>
+        <span>A player nation &amp; party in <a href="https://parlamentum.org" target="_blank" rel="noopener">Parlamentum</a></span>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://parlamentum.org" target="_blank" rel="noopener">Parlamentum Game</a>
+      <a href="https://parlamentumparties.org" target="_blank" rel="noopener">Party Registry</a>
+      <a href="https://discord.gg/NPF" target="_blank" rel="noopener">Discord HQ</a>
+    </div>
+
+    <p style="margin: 0; font-size: 0.88rem;">&copy; 2026 National Prosperity Front. Community fan recruitment site.</p>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var $ = function (id) { return document.getElementById(id); };
+    
+    // Target date: Saturday 10 October 2026, 17:00 UTC
+    var target = Date.UTC(2026, 9, 10, 17, 0, 0);
+    var els = { d: $("cd-d"), h: $("cd-h"), m: $("cd-m"), s: $("cd-s") };
+    var wrap = $("countdown-wrap");
+    var founded = $("founded");
+
+    // Local time string format
+    try {
+      var fmt = new Intl.DateTimeFormat(undefined, { 
+        weekday: "long", 
+        month: "short", 
+        day: "numeric", 
+        year: "numeric",
+        hour: "2-digit", 
+        minute: "2-digit", 
+        timeZoneName: "short" 
+      });
+      $("local-time").textContent = "Launch time: Saturday 10 October 2026 at 17:00 UTC (That is " + fmt.format(new Date(target)) + " in your timezone).";
+    } catch (e) {
+      /* Keep standard UTC format */
+    }
+
+    function pad(n) { return (n < 10 ? "0" : "") + n; }
+    var timer;
+    function render() {
+      var ms = target - Date.now();
+      if (ms <= 0) {
+        wrap.hidden = true;
+        founded.hidden = false;
+        clearInterval(timer);
+        return;
+      }
+      var s = Math.floor(ms / 1000);
+      els.d.textContent = pad(Math.floor(s / 86400));
+      els.h.textContent = pad(Math.floor((s % 86400) / 3600));
+      els.m.textContent = pad(Math.floor((s % 3600) / 60));
+      els.s.textContent = pad(s % 60);
+    }
+    timer = setInterval(function () { if (!document.hidden) render(); }, 1000);
+    render();
+    document.addEventListener("visibilitychange", render);
+
+    // Clipboard Copy Action
+    var copyBtn = $("copy-btn");
+    var copyLabel = $("copy-label");
+    var copyGlyph = copyBtn.querySelector("use");
+    var copyStatus = $("copy-status");
+    var resetCopy;
+
+    function showCopied(success, message) {
+      clearTimeout(resetCopy);
+      copyLabel.textContent = success ? "Copied!" : "Copy Link";
+      copyGlyph.setAttribute("href", success ? "#i-check" : "#i-copy");
+      copyStatus.textContent = message;
+      if (success) {
+        resetCopy = setTimeout(function () {
+          copyLabel.textContent = "Copy Link";
+          copyGlyph.setAttribute("href", "#i-copy");
+          copyStatus.textContent = "";
+        }, 2200);
+      }
+    }
+
+    function selectFallback() {
+      var range = document.createRange();
+      range.selectNodeContents($("invite-link"));
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      showCopied(false, "Invite code selected. Press Ctrl+C or Cmd+C to copy.");
+    }
+
+    copyBtn.addEventListener("click", function () {
+      var inviteUrl = "https://discord.gg/NPF";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(inviteUrl).then(function () {
+          showCopied(true, "Discord invite link copied to clipboard.");
+        }, selectFallback);
+      } else {
+        selectFallback();
+      }
+    });
+
+    // Audio Anthem Player
+    var audio = $("party-audio");
+    var headerBtn = $("header-anthem-btn");
+    var mainPlayBtn = $("main-play-btn");
+    var playIcon = mainPlayBtn ? mainPlayBtn.querySelector(".play-icon") : null;
+    var pauseIcon = mainPlayBtn ? mainPlayBtn.querySelector(".pause-icon") : null;
+    var progressFill = $("anthem-progress");
+    var progressWrap = $("anthem-progress-wrap");
+    var curTimeEl = $("audio-current-time");
+    var totTimeEl = $("audio-total-time");
+
+    function formatTime(secs) {
+      if (isNaN(secs)) return "0:00";
+      var m = Math.floor(secs / 60);
+      var s = Math.floor(secs % 60);
+      return m + ":" + (s < 10 ? "0" : "") + s;
+    }
+
+    function updatePlayState(isPlaying) {
+      if (headerBtn) {
+        headerBtn.classList.toggle("playing", isPlaying);
+        var lbl = headerBtn.querySelector(".label");
+        if (lbl) lbl.textContent = isPlaying ? "Pause" : "Anthem";
+      }
+      if (playIcon && pauseIcon) {
+        playIcon.style.display = isPlaying ? "none" : "block";
+        pauseIcon.style.display = isPlaying ? "block" : "none";
+      }
+    }
+
+    function togglePlay() {
+      if (!audio) return;
+      if (audio.paused) {
+        audio.play().then(function() {
+          updatePlayState(true);
+        }).catch(function(err) {
+          console.warn("Audio playback issue:", err);
+        });
+      } else {
+        audio.pause();
+        updatePlayState(false);
+      }
+    }
+
+    if (headerBtn) headerBtn.addEventListener("click", togglePlay);
+    if (mainPlayBtn) mainPlayBtn.addEventListener("click", togglePlay);
+
+    if (audio) {
+      audio.addEventListener("loadedmetadata", function () {
+        if (totTimeEl) totTimeEl.textContent = formatTime(audio.duration);
+      });
+
+      audio.addEventListener("timeupdate", function () {
+        if (curTimeEl) curTimeEl.textContent = formatTime(audio.currentTime);
+        if (progressFill && audio.duration) {
+          var pct = (audio.currentTime / audio.duration) * 100;
+          progressFill.style.width = pct + "%";
+          if (progressWrap) progressWrap.setAttribute("aria-valuenow", Math.round(pct));
+        }
+      });
+
+      audio.addEventListener("ended", function () {
+        updatePlayState(false);
+        if (progressFill) progressFill.style.width = "0%";
+        if (curTimeEl) curTimeEl.textContent = "0:00";
+      });
+
+      if (progressWrap) {
+        progressWrap.addEventListener("click", function (e) {
+          if (!audio.duration) return;
+          var rect = progressWrap.getBoundingClientRect();
+          var clickPos = (e.clientX - rect.left) / rect.width;
+          audio.currentTime = clickPos * audio.duration;
+        });
+      }
+    }
+
+    // Scroll Reveal Observer
+    window.revealReady = true;
+    if (document.documentElement.classList.contains("js")) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in");
+            io.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: "0px 0px -6% 0px" });
+      document.querySelectorAll("[data-reveal]").forEach(function (el) { io.observe(el); });
+    }
+  })();
+</script>
+
+</body>
+</html>
